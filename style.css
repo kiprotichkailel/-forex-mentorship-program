@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* Light gray background */
+    color: #333333; /* Dark gray text */
+}
+
+/* Header */
+header {
+    background-color: #003d80; /* Deep blue background */
+    color: #ffffff; /* White text */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #0056b3; /* Bright blue background */
+    padding: 0.5rem 0;
+}
+
+nav a {
+    color: #ffffff; /* White text */
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section */
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background-color: #ffffff; /* White background for contrast */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for elegance */
+}
+
+section h2 {
+    color: #0056b3; /* Bright blue text */
+    margin-bottom: 1rem;
+}
+
+section ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+}
+
+section ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Contact Info */
+.contact-info {
+    line-height: 2;
+}
+
+.contact-info strong {
+    color: #003d80; /* Deep blue text */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #003d80; /* Deep blue background */
+    color: #ffffff; /* White text */
+    padding: 1rem 0;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
