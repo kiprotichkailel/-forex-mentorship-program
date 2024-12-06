@@ -3,240 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forex Mentorship</title>
+    <title>Forex Mentorship Program</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #e6f7ff; /* Light blue background */
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
             margin: 0;
             padding: 0;
         }
         header {
-            background: linear-gradient(45deg, #66b3ff, #4da6ff); /* Light blue gradient */
-            color: white;
+            background-color: #0099cc;
+            padding: 20px;
             text-align: center;
-            padding: 50px 0;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            color: white;
         }
-        h1 {
-            font-size: 3em;
-            margin-bottom: 10px;
-        }
-        p {
-            font-size: 1.2em;
-            margin-top: 0;
+        header h1 {
+            margin: 0;
         }
         section {
-            padding: 40px;
-            margin: 20px;
-            background-color: white;
-            border-radius: 12px;
-            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-        h2 {
-            color: #333;
-            font-size: 2em;
-            margin-bottom: 20px;
+            padding: 20px;
         }
         form {
-            background: #fff;
-            padding: 30px;
+            background-color: white;
+            padding: 20px;
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-            width: 100%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             max-width: 600px;
             margin: 0 auto;
         }
+        label {
+            font-weight: bold;
+            margin-top: 10px;
+        }
         input, select, textarea {
             width: 100%;
-            padding: 15px;
-            margin-bottom: 20px;
-            border-radius: 6px;
-            border: 1px solid #ddd;
-            font-size: 1em;
-            box-sizing: border-box;
-            transition: border-color 0.3s ease;
-        }
-        input:focus, select:focus, textarea:focus {
-            border-color: #66b3ff; /* Focus effect with light blue */
-            outline: none;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
         }
         button {
-            background-color: #66b3ff; /* Light blue button */
+            background-color: #0099cc;
             color: white;
-            padding: 15px 25px;
             border: none;
-            border-radius: 6px;
+            padding: 10px 20px;
+            font-size: 16px;
             cursor: pointer;
-            font-size: 1.2em;
-            transition: background-color 0.3s ease;
+            border-radius: 4px;
+            margin-top: 10px;
         }
         button:hover {
-            background-color: #4da6ff; /* Darker light blue on hover */
-        }
-        .services ul {
-            text-align: left;
-            padding-left: 20px;
+            background-color: #0077b3;
         }
         footer {
+            text-align: center;
+            padding: 20px;
             background-color: #333;
             color: white;
-            padding: 20px;
-            text-align: center;
         }
         footer a {
-            color: #66b3ff;
+            color: white;
             text-decoration: none;
-            margin: 0 15px;
         }
         footer a:hover {
             text-decoration: underline;
-        }
-        .subscriptions, .order {
-            text-align: center;
-            margin-top: 40px;
-            padding: 40px;
-            background-color: #ffffff;
-            border-radius: 12px;
-            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-        }
-        .plan {
-            padding: 20px;
-            background-color: #f2faff;
-            border-radius: 8px;
-            margin: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            display: inline-block;
-            width: 25%;
-            text-align: center;
-        }
-        .plan h3 {
-            color: #333;
-        }
-        .plan .price {
-            font-size: 2em;
-            color: #007bff;
-        }
-        .plan button {
-            background-color: #66b3ff;
-            border: none;
-            color: white;
-            padding: 12px 20px;
-            font-size: 1.2em;
-            border-radius: 6px;
-            cursor: pointer;
-        }
-        .plan button:hover {
-            background-color: #4da6ff;
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>Forex Mentorship</h1>
-        <p>Empowering traders with expert knowledge and strategies to succeed in forex markets.</p>
-    </header>
+<header>
+    <h1>Forex Mentorship Program</h1>
+    <p>Empowering traders with expert knowledge and strategies to succeed in forex markets.</p>
+</header>
 
-    <section>
-        <h2>Hi, Welcome to KIPROTICH KAILEL Forex Mentorship Program!</h2>
-        <p>Your journey to mastering Forex trading starts here. Let’s build your success together!</p>
-        <button>Start Your Journey Now</button>
-    </section>
+<section>
+    <h2>Hi, Welcome to KIPROTICH KAILEL Forex Mentorship Program!</h2>
+    <p>Your journey to mastering Forex trading starts here. Let’s build your success together!</p>
 
-    <section>
-        <h2>About Us</h2>
-        <p>Forex Mentorship was founded to help aspiring traders master the forex markets. With years of experience, we provide the knowledge and tools needed to achieve success.</p>
-        <p><strong>Mission:</strong> To empower traders with practical strategies and insights.</p>
-        <p><strong>Vision:</strong> A world where anyone can confidently trade and achieve financial freedom.</p>
-    </section>
+    <form action="https://formspree.io/f/xvgonpjy" method="POST">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required placeholder="Enter your full name">
 
-    <section class="services">
-        <h2>Our Services</h2>
-        <ul>
-            <li><strong>Beginner Forex Course:</strong> Learn the basics of forex trading and build a strong foundation.</li>
-            <li><strong>Advanced Trading Strategies:</strong> Master advanced techniques to maximize your trading success.</li>
-            <li><strong>Personalized 1-on-1 Coaching:</strong> Get tailored mentorship to meet your unique trading goals.</li>
-            <li><strong>Blog & Resources:</strong> Stay informed with articles, tips, and market analysis.<br> Download my eBooks and tools to enhance your trading journey.</li>
-        </ul>
-    </section>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email address">
 
-    <section>
-        <h2>Forex Mentorship Program Enrollment</h2>
-        <p>Fill out the form below to enroll in our Forex Mentorship Program.</p>
-        <form action="https://formspree.io/f/your-endpoint" method="POST">
-            <label for="fullname">Full Name:</label>
-            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" required placeholder="Enter your phone number">
 
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+        <label for="experience">How would you rate your experience in Forex trading?</label>
+        <select id="experience" name="experience" required>
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+            <option value="expert">Expert</option>
+        </select>
 
-            <label for="phone">Phone Number:</label>
-            <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required>
+        <label for="goals">Your Goals:</label>
+        <textarea id="goals" name="goals" rows="4" required placeholder="What are your goals for Forex trading?"></textarea>
 
-            <label for="experience">How would you rate your experience in Forex trading?</label>
-            <select id="experience" name="experience" required>
-                <option value="beginner">Beginner</option>
-                <option value="intermediate">Intermediate</option>
-                <option value="advanced">Advanced</option>
-                <option value="expert">Expert</option>
-            </select>
+        <label for="mentorship_format">Preferred Learning Format:</label>
+        <select id="mentorship_format" name="mentorship_format" required>
+            <option value="one-on-one">One-on-one sessions</option>
+            <option value="group">Group sessions</option>
+            <option value="self-paced">Self-paced online courses</option>
+        </select>
 
-            <label for="mentorship_format">Preferred Learning Format:</label>
-            <select id="mentorship_format" name="mentorship_format" required>
-                <option value="one-on-one">One-on-one sessions</option>
-                <option value="group">Group sessions</option>
-                <option value="self-paced">Self-paced online courses</option>
-            </select>
+        <label for="payment_method">Preferred Payment Method:</label>
+        <select id="payment_method" name="payment_method" required>
+            <option value="paypal">PayPal</option>
+            <option value="bank_transfer">Bank Transfer</option>
+            <option value="mpesa">M-Pesa</option>
+            <option value="payoneer">Payoneer</option>
+            <option value="skrill">Skrill</option>
+            <option value="venmor">Venmor</option>
+            <option value="zelle">Zelle</option>
+        </select>
 
-            <label for="payment_method">Preferred Payment Method:</label>
-            <select id="payment_method" name="payment_method" required>
-                <option value="paypal">PayPal</option>
-                <option value="bank_transfer">Bank Transfer</option>
-                <option value="mpesa">M-Pesa</option>
-                <option value="payoneer">Payoneer</option>
-                <option value="skrill">Skrill</option>
-                <option value="venmo">Venmo</option>
-                <option value="zelle">Zelle</option>
-            </select>
+        <label for="additional_info">Additional Information (Optional):</label>
+        <textarea id="additional_info" name="additional_info" rows="4" placeholder="Any additional information"></textarea>
 
-            <label for="additional_info">Additional Information (Optional):</label>
-            <textarea id="additional_info" name="additional_info" rows="4" placeholder="Any other details you'd like to share?"></textarea>
+        <button type="submit">Submit Enrollment</button>
+    </form>
+</section>
 
-            <button type="submit">Submit Enrollment</button>
-        </form>
-    </section>
-
-    <!-- Place Order Section -->
-    <section class="order">
-        <h2>Place Your Order</h2>
-        <p>Choose your subscription plan to start your Forex journey.</p>
-        <div class="plan">
-            <h3>Monthly Plan</h3>
-            <p class="price">$50</p>
-            <p>Includes 2 weeks free VIP signals.</p>
-            <button>Order Now</button>
-        </div>
-        <div class="plan">
-            <h3>2 Months Plan</h3>
-            <p class="price">$80</p>
-            <p>Includes 1 month free VIP signals.</p>
-            <button>Order Now</button>
-        </div>
-        <div class="plan">
-            <h3>3 Months Plan</h3>
-            <p class="price">$120</p>
-            <p>Includes 1.5 months free VIP signals.</p>
-            <button>Order Now</button>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Forex Mentorship. All Rights Reserved.</p>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms & Conditions</a>
-    </footer>
+<footer>
+    <p>&copy; 2024 Forex Mentorship by Kiprotich Amos Kailel. All Rights Reserved.</p>
+    <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
+</footer>
 
 </body>
 </html>
