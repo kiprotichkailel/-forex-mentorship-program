@@ -104,10 +104,21 @@
           <option value="intermediate">Intermediate</option>
           <option value="advanced">Advanced</option>
           <option value="expert">Expert</option>
+           </section>
+        <label for="payment_method">Preferred Payment Method:</label><br>
+        <select id="payment_method" name="payment_method" required>
+          <option value="paypal">PayPal</option>
+          <option value="bank_transfer">Bank Transfer</option>
+          <option value="mpesa">M-Pesa</option>
+          <option value="Payoneer">Payoneer</option>
+          <option value="Skrill">Skrill</option>
+          <option value="Venmor">Venmor</option>
+          <option value="Zelle">Zelle</option>
         </select><br>
         
-        <label for="goals">What are your goals for learning Forex?</label><br>
-        <textarea id="goals" name="goals" rows="4" required></textarea><br>
+        <label for="additional_info">Additional Information (Optional):</label><br>
+        <textarea id="additional_info" name="additional_info" rows="4"></textarea><br>
+        </select><br>
         
         <label for="mentorship_format">Preferred Learning Format:</label><br>
         <select id="mentorship_format" name="mentorship_format" required><br>
@@ -131,21 +142,6 @@
         </tr><br>
       </tbody>
     </table>
-  </section>
-        <label for="payment_method">Preferred Payment Method:</label><br>
-        <select id="payment_method" name="payment_method" required>
-          <option value="paypal">PayPal</option>
-          <option value="bank_transfer">Bank Transfer</option>
-          <option value="mpesa">M-Pesa</option>
-          <option value="Payoneer">Payoneer</option>
-          <option value="Skrill">Skrill</option>
-          <option value="Venmor">Venmor</option>
-          <option value="Zelle">Zelle</option>
-        </select><br>
-        
-        <label for="additional_info">Additional Information (Optional):</label><br>
-        <textarea id="additional_info" name="additional_info" rows="4"></textarea><br>
-        <button type="submit">Submit Enrollment</button><br>
       </form>
     </div>
   </section>
