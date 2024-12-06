@@ -114,65 +114,22 @@
           <option value="one-on-one">One-on-one sessions</option>
           <option value="group">Group sessions</option>
           <option value="self-paced">Self-paced online courses</option>
-        </select><br>
-        <h2>Our Subscription Plans</h2>
-     <h2>Our Subscription Plans</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Subscription Plan</th>
-          <th>Price</th>
-          <th>Duration</th>
-          <th>Action</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>1 Month Subscription</td>
-          <td class="subscription">$20</td>
-          <td class="period">Per Month</td>
-          <td><a href="#" class="btn">Subscribe Now</a></td>
-        </tr>
-        <tr>
-          <td>3 Months Subscription</td>
-          <td class="subscription">$50</td>
-          <td class="period">For 3 Months</td>
-          <td><a href="#" class="btn">Subscribe Now</a></td>
-        </tr>
-        <tr>
-          <td>6 Months Subscription</td>
-          <td class="subscription">$80</td>
-          <td class="period">For 6 Months</td>
-          <td><a href="#" class="btn">Subscribe Now</a></td>
-        </tr>
-        <tr>
-          <td>9 Months Subscription</td>
-          <td class="subscription">$90</td>
-          <td class="period">For 9 Months</td>
-          <td><a href="#" class="btn">Subscribe Now</a></td>
-        </tr>
-        <tr>
-          <td>12 Months Subscription</td>
-          <td class="subscription">$100</td>
-          <td class="period">For 12 Months</td>
-          <td><a href="#" class="btn">Subscribe Now</a></td>
-        </tr>
-        <tr>
-          <td>Lifetime Subscription</td>
-          <td class="subscription">$120</td>
-          <td class="period">Lifetime Access</td>
-          <td><a href="#" class="btn">Subscribe Now</a></td>
+        </select><br> <div class="subscription-box">
+      <h2>Select Your Subscription Plan</h2>
+      <form>
+        <select class="subscription-select" name="subscription" id="subscription">
+          <option value="1-month">1 Month - $10</option>
+          <option value="3-months">3 Months - $30</option>
+          <option value="6-months">6 Months - $60</option>
+          <option value="9-months">9 Months - $80</option>
+          <option value="lifetime">Lifetime - $100</option>
+        </select>
+        <button type="submit" class="btn">Subscribe Now</button>
+      </form>
         </tr>
       </tbody>
     </table>
   </section>
-
-      <!-- Lifetime Subscription -->
-      <div class="pricing-card">
-        <h3>Lifetime Subscription</h3>
-        <p class="subscription">$120</p>
-        <p class="period">Lifetime Access</p>
-        <a href="#" class="btn">Subscribe Now</a>
         <label for="payment_method">Preferred Payment Method:</label><br>
         <select id="payment_method" name="payment_method" required>
           <option value="paypal">PayPal</option>
