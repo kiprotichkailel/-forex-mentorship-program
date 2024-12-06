@@ -6,77 +6,92 @@
     <title>Forex Mentorship</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            font-family: 'Arial', sans-serif;
+            background-color: #e6f7ff; /* Light blue background */
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #28a745;
+            background: linear-gradient(45deg, #66b3ff, #4da6ff); /* Light blue gradient */
             color: white;
             text-align: center;
-            padding: 20px;
+            padding: 50px 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
         h1 {
-            font-size: 36px;
+            font-size: 5em;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2em;
+            margin-top: 0;
         }
         section {
-            padding: 20px;
-            margin: 10px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            margin: 20px;
+            background-color: light blue;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
         h2 {
             color: #333;
-        }
-        p {
-            font-size: 18px;
-            color: #555;
-        }
-        .services, .contact {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-        .service-item, .contact-item {
-            flex: 1;
-            margin: 10px;
+            font-size: 5em;
+            margin-bottom: 20px;
         }
         form {
             background: #fff;
-            padding: 20px;
+            padding: 30px;
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            width: 400px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            width: 100%;
+            max-width: 600px;
             margin: 0 auto;
         }
-        input, select, textarea, button {
+        input, select, textarea {
             width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 6px;
             border: 1px solid #ddd;
-            border-radius: 4px;
+            font-size: 5em;
+            box-sizing: border-box;
+            transition: border-color 0.5s ease;
+        }
+        input:focus, select:focus, textarea:focus {
+            border-color: #66b3ff; /* Focus effect with light blue */
+            outline: none;
         }
         button {
-            background: #28a745;
-            color: #fff;
+            background-color: #66b3ff; /* Light blue button */
+            color: white;
+            padding: 15px 25px;
             border: none;
+            border-radius: 6px;
             cursor: pointer;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
         }
         button:hover {
-            background: #218838;
+            background-color: #4da6ff; /* Darker light blue on hover */
+        }
+        .services ul {
+            text-align: left;
+            padding-left: 20px;
         }
         footer {
-            text-align: center;
-            padding: 20px;
             background-color: #333;
             color: white;
+            padding: 20px;
+            text-align: center;
         }
         footer a {
-            color: #fff;
+            color: #66b3ff;
             text-decoration: none;
-            margin: 0 10px;
+            margin: 0 15px;
+        }
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -89,44 +104,25 @@
 
     <section>
         <h2>Hi, Welcome to KIPROTICH KAILEL Forex Mentorship Program!</h2>
-        <p>Your journey to mastering Forex trading starts here. Let’s build your success together!</p>
+        <p>Your journey to mastering Forex trading starts here.<br> Let’s build your success together!</p>
         <button>Start Your Journey Now</button>
     </section>
 
     <section>
         <h2>About Us</h2>
-        <p>Forex Mentorship was founded to help aspiring traders master the forex markets. With years of experience, we provide the knowledge and tools needed to achieve success.</p>
+        <p>Forex Mentorship was founded to help aspiring traders master the forex markets. <br>With years of experience, we provide the knowledge and tools needed to achieve success.</p>
         <p><strong>Mission:</strong> To empower traders with practical strategies and insights.</p>
         <p><strong>Vision:</strong> A world where anyone can confidently trade and achieve financial freedom.</p>
     </section>
 
     <section class="services">
-        <div class="service-item">
-            <h2>Our Services</h2>
-            <ul>
-                <li><strong>Beginner Forex Course:</strong> Learn the basics of forex trading and build a strong foundation.</li>
-                <li><strong>Advanced Trading Strategies:</strong> Master advanced techniques to maximize your trading success.</li>
-                <li><strong>Personalized 1-on-1 Coaching:</strong> Get tailored mentorship to meet your unique trading goals.</li>
-                <li><strong>Blog & Resources:</strong> Stay informed with articles, tips, and market analysis. Download free eBooks and tools to enhance your trading journey.</li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="contact">
-        <div class="contact-item">
-            <h2>Contact Us</h2>
-            <p><strong>Email:</strong> kailelkiprotich4@gmail.com</p>
-            <p><strong>Phone:</strong> +254705636703</p>
-        </div>
-        <div class="contact-item">
-            <h2>Choose Your Subscription Plan:</h2>
-            <ul>
-                <li><strong>Monthly:</strong> $50 (Includes 2 weeks free VIP signals)</li>
-                <li><strong>2 Months:</strong> $80 (Includes 1 month free VIP signals)</li>
-                <li><strong>3 Months:</strong> $100 (Includes 2 months free VIP signals)</li>
-                <li><strong>4 Months:</strong> $120 (Includes 4 months free VIP signals)</li>
-            </ul>
-        </div>
+        <h2>Our Services</h2>
+        <ul>
+            <li><strong>Beginner Forex Course:</strong> Learn the basics of forex trading and build a strong foundation.</li>
+            <li><strong>Advanced Trading Strategies:</strong> Master advanced techniques to maximize your trading success.</li>
+            <li><strong>Personalized 1-on-1 Coaching:</strong> Get tailored mentorship to meet your unique trading goals.</li>
+            <li><strong>Blog & Resources:</strong> Stay informed with articles, tips, and market analysis.<br> Download my eBooks and tools to enhance your trading journey.</li>
+        </ul>
     </section>
 
     <section>
@@ -164,18 +160,21 @@
                 <option value="mpesa">M-Pesa</option>
                 <option value="payoneer">Payoneer</option>
                 <option value="skrill">Skrill</option>
+                <option value="venmo">Venmo</option>
+                <option value="zelle">Zelle</option>
             </select>
 
             <label for="additional_info">Additional Information (Optional):</label>
-            <textarea id="additional_info" name="additional_info" rows="4" placeholder="Enter additional details"></textarea>
+            <textarea id="additional_info" name="additional_info" rows="4" placeholder="Any other details you'd like to share?"></textarea>
 
             <button type="submit">Submit Enrollment</button>
         </form>
     </section>
 
     <footer>
-        <p>© 2024 Forex Mentorship by Kiprotich Amos Kailel. All rights reserved.</p>
-        <p>Follow us on: <a href="https://twitter.com" target="_blank">Twitter</a> | <a href="https://facebook.com" target="_blank">Facebook</a></p>
+        <p>Email: kailelkiprotich4@gmail.com | Phone: +254705636703</p>
+        <p>© 2024 Forex Mentorship by Kiprotich Amos Kailel.<br> All rights reserved.</p>
+        <p>Follow us on: <a href="#">Twitter</a> | <a href="#">Facebook</a></p>
     </footer>
 
 </body>
