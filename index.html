@@ -10,7 +10,9 @@
   
   <link rel="stylesheet" href="styles.css">
 </head>
-<body><style="background-color: #ADD8E6;">
+  body {
+      background-color: #ADD8E6; /* Light blue background */
+    }
   <!-- Header Section -->
   <header>
     <div class="container">
@@ -110,26 +112,26 @@
         <textarea id="goals" name="goals" rows="4" required></textarea><br>
         
         <label for="mentorship_format">Preferred Learning Format:</label><br>
-        <select id="mentorship_format" name="mentorship_format" required>
-          <option value="one-on-one">One-on-one sessions</option>
-          <option value="group">Group sessions</option>
-          <option value="self-paced">Self-paced online courses</option>
-        </select><br> <div class="subscription-box">
-      <h2>Select Your Subscription Plan</h2>
-      <form>
-        <select class="subscription-select" name="subscription" id="subscription">
-          <option value="1-month">1 Month - $10</option>
-          <option value="3-months">3 Months - $30</option>
-          <option value="6-months">6 Months - $60</option>
-          <option value="9-months">9 Months - $80</option>
-          <option value="lifetime">Lifetime - $100</option>
-        </select>
-        <button type="submit" class="btn">Subscribe Now</button>
-      </form>
-        </tr>
-      </tbody>
+        <select id="mentorship_format" name="mentorship_format" required><br>
+          <option value="one-on-one">One-on-one sessions</option><br>
+          <option value="group">Group sessions</option><br>
+          <option value="self-paced">Self-paced online courses</option><br>
+        </select><br> <div class="subscription-box"><br>
+      <h2>Select Your Subscription Plan</h2><br>
+      <form><br>
+        <select class="subscription-select" name="subscription" id="subscription"><br>
+          <option value="1-month">1 Month - $10</option><br>
+          <option value="3-months">3 Months - $30</option><br>
+          <option value="6-months">6 Months - $60</option><br>
+          <option value="9-months">9 Months - $80</option><br>
+          <option value="lifetime">Lifetime - $100</option><br>
+        </select><br>
+        <button type="submit" class="btn">Subscribe Now</button><br>
+      </form><br>
+        </tr><br>
+      </tbody><br>
     </table>
-  </section>
+  </section><br>
         <label for="payment_method">Preferred Payment Method:</label><br>
         <select id="payment_method" name="payment_method" required>
           <option value="paypal">PayPal</option>
