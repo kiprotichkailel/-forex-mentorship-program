@@ -134,7 +134,11 @@
     </select><br>
     <label for="additional_info">Additional Information (Optional):</label><br>
     <textarea id="additional_info" name="additional_info" rows="4"></textarea><br>
-    <button type="submit">Submit Enrollment</button><br>
+    <button type="submit">Submit Enrollment</button><br><form action="https://formspree.io/f/{form_id}" method="post">
+  <label for="email">Your Email</label>
+  <input name="Email" id="email" type="email">
+  <button type="submit">Submit</button>
+</form>
 </form>
 
 </body>
