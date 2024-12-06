@@ -1,165 +1,101 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Forex Mentorship - Learn Forex Trading with expert guidance.">
-  <meta name="keywords" content="Forex Mentorship, Forex Trading, Forex Coaching, Forex Strategies, Financial Freedom">
-  <meta name="author" content="Kiprotich Amos Kailel">
-  <title>Forex Mentorship</title>
-  
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forex Mentorship Enrollment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0aaddf;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(183, 197, 243, 0.1);
+            width: 400px;
+        }
+        h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        input, select, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background: #28a745;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #218838;
+        }
+    </style>
 </head>
-<body><body style="background-color: #e6f7ff;;">
-  <!-- Header Section -->
-  <header>
-    <div class="container">
-      <h1>Forex Mentorship</h1>
-      <img src = "download.jpg" style="height:200px;width: 300px;"> <img src = "fx.jpg" style="height:200px;width: 300px;"> 
-      <p>Empowering traders with expert knowledge and strategies to succeed in forex markets.</p><p style="background-image: background.jpg;">
-      <h2>Hi, Welcome to <span style="color: #007bff;">KIPROTICH KAILEL</span> Forex Mentorship Program!</h2>
-      <p>Your journey to mastering Forex trading starts here. Let’s build your success together!</p>
-      <a href="#signup" class="cta-button">Start Your Journey Now</a>
-    </div>
-  </header>
+<body>
 
-  <!-- About Us Section -->
-  <section id="about">
-    <div class="container">
-      <h2>About Us</h2>
-      <p>Forex Mentorship was founded to help aspiring traders master the forex markets.<br>With years of experience, we provide the knowledge and tools needed to achieve success.</p>
-      <p><strong>Mission:</strong> To empower traders with practical strategies and insights.</p>
-      <p><strong>Vision:</strong> A world where anyone can confidently trade and achieve financial freedom.</p>
-    </div>
-  </section>
+    <form action="submit_form.php" method="POST">
+        <h2>Forex Mentorship Enrollment</h2>
 
-  <!-- Services Section -->
-  <section id="services">
-    <div class="container">
-      <h2>Our Services</h2>
-      <div class="service">
-        <h3>Beginner Forex Course</h3>
-        <p>Learn the basics of forex trading and build a strong foundation.</p>
-      </div>
-      <div class="service">
-        <h3>Advanced Trading Strategies</h3>
-        <p>Master advanced techniques to maximize your trading success.</p>
-      </div>
-      <div class="service">
-        <h3>Personalized 1-on-1 Coaching</h3> 
-        <p>Get tailored mentorship to meet your unique trading goals.</p>
-      </div>
-    </div>
-  </section>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
 
-  <!-- Blog/Resources Section -->
-  <section id="resources">
-    <div class="container">
-      <h2>Blog & Resources</h2>
-      <p>Stay informed with articles, tips, and market analysis.</p>
-      <p>Download free eBooks and tools to enhance your trading journey.</p>
-    </div>
-  </section>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
 
-  <!-- Contact Us Section -->
-  <section id="contact">
-    <div class="container">
-      <h2>Contact Us</h2><br>
-      <form>
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" required><br>
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br>
+        <label for="experience">Experience in Forex Trading:</label>
+        <select id="experience" name="experience" required>
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+            <option value="expert">Expert</option>
+        </select>
 
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" required></textarea><br>
-      </form>
-      <p>Email: <a href="mailto:kailelkiprotich4@gmail.com">kailelkiprotich4@gmail.com</a></p>
-      <p>Phone: <a href="tel:+254705636703">+254705636703</a></p>
-    </div>
-      <!-- Subscription Plans Section -->
-    <h4>Choose Your Subscription Plan:</h4>
-    <div>
-        <input type="radio" id="monthly" name="subscription" value="monthly" required>
-        <label for="monthly">Monthly - $50 (Includes 2 weeks free VIP signals)</label><br>
+        <label for="goals">Your Goals in Forex Mentorship:</label>
+        <textarea id="goals" name="goals" rows="4" placeholder="Describe your goals" required></textarea>
 
-        <input type="radio" id="two_months" name="subscription" value="two_months">
-        <label for="two_months">2 Months - $80 (Includes 1 month free VIP signals)</label><br>
+        <label for="mentorship_format">Preferred Learning Format:</label>
+        <select id="mentorship_format" name="mentorship_format" required>
+            <option value="one-on-one">One-on-one sessions</option>
+            <option value="group">Group sessions</option>
+            <option value="self-paced">Self-paced online courses</option>
+        </select>
 
-        <input type="radio" id="three_months" name="subscription" value="three_months">
-        <label for="three_months">3 Months - $100 (Includes 2 months free VIP signals)</label><br>
+        <label for="payment_method">Preferred Payment Method:</label>
+        <select id="payment_method" name="payment_method" required>
+            <option value="paypal">PayPal</option>
+            <option value="bank_transfer">Bank Transfer</option>
+            <option value="mpesa">M-Pesa</option>
+            <option value="payoneer">Payoneer</option>
+            <option value="skrill">Skrill</option>
+        </select>
 
-        <input type="radio" id="four_months" name="subscription" value="four_months">
-        <label for="four_months">4 Months - $120 (Includes 4 months free VIP signals)</label><br>
-    </div>
-    
-  </section><br>
-<h1 style="text-align: left;"><B></B>Forex Mentorship Program Enrollment</B></h1>
-<p style="text-align: left;">Fill out the form below to enroll in our Forex Mentorship Program.</p><br>
-<form action="submit_form.php" method="POST"><br>
-    <label for="fullname">Full Name:</label><br>
-    <input type="text" id="fullname" name="fullname" required><br>
-    <label for="email">Email Address:</label><br>
-    <input type="email" id="email" name="email" required><br>
-    <label for="phone">Phone Number:</label><br>
-    <input type="text" id="phone" name="phone" required><br>
-    <label for="experience">How would you rate your experience in Forex trading?</label><br>
-    <select id="experience" name="experience" required><br>
-        <option value="beginner">Beginner</option><br>
-        <option value="intermediate">Intermediate</option><br>
-        <option value="advanced">Advanced</option><br>
-        <option value="expert">Expert</option><br>
-    </select><br>
-  
-    <textarea id="goals" name="goals" rows="4" required></textarea><br>
-    <label for="mentorship_format">Preferred Learning Format:</label><br>
-    <select id="mentorship_format" name="mentorship_format" required><br>
-        <option value="one-on-one">One-on-one sessions</option><br>
-        <option value="group">Group sessions</option><br>
-        <option value="self-paced">Self-paced online courses</option><br>
-    </select><br>
-  
-    <label for="payment_method">Preferred Payment Method:</label><br>
-    <select id="payment_method" name="payment_method" required><br>
-        <option value="paypal">PayPal</option><br>
-        <option value="bank_transfer">Bank Transfer</option><br>
-        <option value="mpesa">M-Pesa</option><br>
-      <option value="Payoneer">Payoneer</option><br>
-      <option value="Skrill">Skrill</option><br>
-      <option value="Venmor">Venmor</option><br>
-      <option value="Zelle">Zelle</option><br>
+        <label for="additional_info">Additional Information (Optional):</label>
+        <textarea id="additional_info" name="additional_info" rows="4" placeholder="Enter additional details"></textarea>
 
-    </select><br>
-    <label for="additional_info">Additional Information (Optional):</label><br>
-    <textarea id="additional_info" name="additional_info" rows="4"></textarea><br>
-    <button type="submit">Submit Enrollment</button><br><form action="https://formspree.io/f/{form_id}" method="post">
-  <label for="email">Your Email</label>
-  <input name="Email" id="email" type="email">
-  <button type="submit">Submit</button>
-</form>
-</form>
+        <button type="submit">Submit Enrollment</button>
+    </form>
 
-</body>
-</html>
-
-        <button type="submit">Send</button><br>
-      </form><br>
-      <p>Email: <a href="mailto:kailelkiprotich4@gmail.com">kailelkiprotich4@gmail.com</a></p><br>
-      <p>Phone: <a href="tel:+254705636703">+254705636703</a></p>
-    </div>
-  </section>
-
-  <!-- Footer Section -->
-  <footer>
-    <div class="container">
-      <p>&copy; 2024 Forex Mentorship by Kiprotich Amos Kailel. All rights reserved.</p>
-      <p>Follow us on: 
-        <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a> |
-        <a href="https://facebook.com/yourprofile" target="_blank">Facebook</a>
-      </p>
-    </div>
-  </footer>
 </body>
 </html>
